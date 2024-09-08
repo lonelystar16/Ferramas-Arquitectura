@@ -19,8 +19,8 @@ En este repositorio se creará una página web, acorde a los requerimientos de l
 ## Integrantes
 - [Fernando Muñoz](https://www.github.com/lonelystar16)
 - [Martín Quiroga](https://github.com/trollynnn)
-- [Gladys Espinoza](https:github.com/minmizu)
-- [Juan Candia](https:github.com/ObiJuanKenobi22)
+- [Gladys Espinoza](https://github.com/minmizu)
+- [Juan Candia](https://github.com/ObiJuanKenobi22)
 ## Herramientas y Tecnologías
 
 **Backend:**

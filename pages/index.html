@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es" class="h-full">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FERREMAS - Tu Solución en Ferretería y Construcción</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="  
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+
+<body class="flex flex-col min-h-screen font-sans bg-gray-100">
+    <header class="bg-blue-600 text-white shadow-md">
+        <div class="container mx-auto px-4 py-6 flex flex-col sm:flex-row justify-between items-center">
+            <h1 class="text-3xl font-bold mb-4 sm:mb-0">FERREMAS</h1>
+            <nav class="flex items-center">
+                <ul class="flex flex-wrap justify-center space-x-4 mr-4">
+                    <li><a href="#" class="hover:text-yellow-300 transition duration-300">Herramientas</a></li>
+                    <li><a href="#" class="hover:text-yellow-300 transition duration-300">Materiales</a></li>
+                    <li><a href="#" class="hover:text-yellow-300 transition duration-300">Seguridad</a></li>
+                    <li><a href="#" class="hover:text-yellow-300 transition duration-300">Accesorios</a></li>
+                    <li><a href="#" class="hover:text-yellow-300 transition duration-300">Contacto</a></li>
+                </ul>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-white hover:text-yellow-300 transition duration-300">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <a href="#" class="text-white hover:text-yellow-300 transition duration-300">
+                        <i class="fas fa-user"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <section class="destacados mb-12">
+            <h2 class="text-2xl font-semibold mb-6 text-gray-800">Productos Destacados</h2>
+            <div class="carousel bg-white p-6 rounded-lg shadow-md">
+                <!-- Contenido del carrusel aquí -->
+                <p class="text-gray-600">Aquí irá el contenido del carrusel de productos destacados.</p>
+            </div>
+        </section>
+
+        <section class="lanzamientos mb-12">
+            <h2 class="text-2xl font-semibold mb-6 text-gray-800">Nuevos Lanzamientos</h2>
+            <div class="productos grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Productos aquí -->
+                <div class="bg-white p-4 rounded-lg shadow">Producto 1</div>
+                <div class="bg-white p-4 rounded-lg shadow">Producto 2</div>
+                <div class="bg-white p-4 rounded-lg shadow">Producto 3</div>
+            </div>
+        </section>
+
+        <section class="ofertas">
+            <h2 class="text-2xl font-semibold mb-6 text-gray-800">Ofertas Especiales</h2>
+            <div class="productos grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Productos aquí -->
+                <div class="bg-white p-4 rounded-lg shadow">Oferta 1</div>
+                <div class="bg-white p-4 rounded-lg shadow">Oferta 2</div>
+                <div class="bg-white p-4 rounded-lg shadow">Oferta 3</div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-6 mt-auto">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2023 FERREMAS</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

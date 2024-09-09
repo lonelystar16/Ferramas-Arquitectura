@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FERREMAS - Herramientas</title>
+    <title>FERREMAS - Equipos de Seguridad</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="  
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        
+
 </head>
 
 <body class="flex flex-col min-h-screen font-sans bg-gray-100">
@@ -19,9 +19,12 @@
             <h1 class="text-3xl font-bold mb-4 sm:mb-0">FERREMAS</h1>
             <nav class="flex items-center">
                 <ul class="flex flex-wrap justify-center space-x-4 mr-4">
-                    <li><a href="#" class="hover:text-yellow-300 transition duration-300">Herramientas</a></li>
-                    <li><a href="#" class="hover:text-yellow-300 transition duration-300">Materiales</a></li>
-                    <li><a href="#" class="hover:text-yellow-300 transition duration-300">Seguridad</a></li>
+                    <li><a href="herramientas.html"
+                            class="hover:text-yellow-300 transition duration-300">Herramientas</a></li>
+                    <li><a href="materiales.html" class="hover:text-yellow-300 transition duration-300">Materiales</a>
+                    </li>
+                    <li><a href="seguridad.html" class="hover:text-yellow-300 transition duration-300">Seguridad</a>
+                    </li>
                     <li><a href="#" class="hover:text-yellow-300 transition duration-300">Accesorios</a></li>
                     <li><a href="#" class="hover:text-yellow-300 transition duration-300">Contacto</a></li>
                 </ul>
@@ -38,27 +41,27 @@
     </header>
 
     <main class="flex-grow container mx-auto px-4 py-8">
-        <section class="herramientas mb-12">
-            <h2 class="text-2xl font-semibold mb-6 text-gray-800">Herramientas</h2>
+        <section class="seguridad mb-12">
+            <h2 class="text-2xl font-semibold mb-6 text-gray-800">Equipos de Seguridad</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="bg-white p-4 rounded-lg shadow">
-                    <img src="/img/martillo1.jpeg" alt="Martillo" class="w-full h-40 object-cover mb-2 rounded" id="img-Martillo">
-                    <h3 class="text-lg font-medium mb-1">Martillo de Acero</h3>
-                    <p class="text-gray-600 text-sm">Mango ergonómico para mayor comodidad.</p>
-                    <p class="text-blue-600 font-semibold mt-2">$15.000</p>
+                    <img src="/img/img_cascoSeguridad.jpeg" alt="Casco de Seguridad" class="w-full h-40 object-cover mb-2 rounded">
+                    <h3 class="text-lg font-medium mb-1">Casco de Seguridad</h3>
+                    <p class="text-gray-600 text-sm">Protección para la cabeza en obras y talleres.</p>
+                    <p class="text-blue-600 font-semibold mt-2">$8.000</p>
                 </div>
                 <div class="bg-white p-4 rounded-lg shadow">
-                    <img src="/img/set_atornilladores.jpeg" alt="Destornillador"
+                    <img src="/img/img_guantes.jpeg" alt="Guantes de Protección"
                         class="w-full h-40 object-cover mb-2 rounded">
-                    <h3 class="text-lg font-medium mb-1">Set de Destornilladores</h3>
-                    <p class="text-gray-600 text-sm">Incluye diferentes puntas para diversas tareas.</p>
-                    <p class="text-blue-600 font-semibold mt-2">$12.000</p>
+                    <h3 class="text-lg font-medium mb-1">Guantes de Protección</h3>
+                    <p class="text-gray-600 text-sm">Resistentes a cortes y abrasiones.</p>
+                    <p class="text-blue-600 font-semibold mt-2">$5.000</p>
                 </div>
                 <div class="bg-white p-4 rounded-lg shadow">
-                    <img src="/img/Taladro1.jpeg" alt="Taladro" class="w-full h-40 object-cover mb-2 rounded">
-                    <h3 class="text-lg font-medium mb-1">Taladro Electrico</h3>
-                    <p class="text-gray-600 text-sm">Potente y versátil para todo tipo de proyectos.</p>
-                    <p class="text-blue-600 font-semibold mt-2">$50.000</p>
+                    <img src="/img/img_gafasSeguridad.jpeg" alt="Gafas de Seguridad" class="w-full h-40 object-cover mb-2 rounded">
+                    <h3 class="text-lg font-medium mb-1">Gafas de Seguridad</h3>
+                    <p class="text-gray-600 text-sm">Protección ocular contra partículas y proyecciones.</p>
+                    <p class="text-blue-600 font-semibold mt-2">$3.500</p>
                 </div>
             </div>
         </section>
